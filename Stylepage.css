@@ -47,10 +47,10 @@ table, th, td{
     border-collapse: collapse;
     font-style: italic;
     font-family: cursive;
-    margin-left: 100px; 
-    /* margin-right: auto; */
+    margin-left: auto; 
+    margin-right: auto; 
     border: 1px solid black;
-    padding: 10px;
+    padding: 10px;  
 }
 th{
     /* height: 50px; */
@@ -63,6 +63,9 @@ th{
 }
 .foreign p{
     color: black;
+}
+.foreign h2{
+    text-align: center;
 }
 
  .historicalPlaces img{
@@ -87,6 +90,11 @@ th{
     font-family:monospace;
     font-style: oblique;
     font-size: 20px;
+
+}
+.historical h2{
+    text-align:center;
+    text-indent: -150px; 
 
 }
 .historicalPlaces p{
@@ -155,6 +163,11 @@ th{
     .historicalPlaces h3{
         padding-left: 0px;
     }
+    .historical h2{
+        text-align:center;
+        text-indent: 10px;
+    
+    } 
     .place{
         flex-wrap: wrap; 
     }
@@ -214,7 +227,7 @@ th{
             height: 10px;
             color: brown;
             border-collapse: collapse;
-            margin-left: 10px;
+            /* margin-left: 10px; */
             /* padding-left: 30px;  */
             /* margin-right: auto; */ 
             
@@ -227,6 +240,11 @@ th{
             padding-right: 20px;
         
         }
+        .historical h2{
+            text-align:center;
+            text-indent: 10px;
+        
+        } 
         .place{
             flex-wrap: wrap; 
         }
