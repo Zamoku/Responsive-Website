@@ -34,7 +34,6 @@ body{
     flex-wrap: nowrap;
     flex-direction: row;
     width: 80%;
-    
  }  
 .cityDescription p{ 
   color: black;
@@ -118,6 +117,45 @@ th{
     color: black;
     text-align: center;
 }
+.navbar {
+    margin-top: 400px;
+    width: 79%;
+    background-color:chocolate;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 48%;
+    text-align: center; 
+  }
+  
+  
+  .navbar a:hover {
+    background-color:coral;
+  }
+  .pictures_landing{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30%;
+}
+.pictures_landing img{
+    height: 302px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+h1.landing {
+    margin-left: 700px;
+
+}
 
  @media screen and (max-width: 450px){
     .intro{
@@ -177,12 +215,18 @@ th{
     table, th, td{
         width: 30px;
         height: 10px;
-        color: brown;
+        /* color: brown; */
         border-collapse: collapse;
         /* margin-left: 80px; */
         /* padding-left: 30px; 
         margin-right: auto; */
-        
+        color:red;
+        font-style: italic;
+        font-family: cursive;  
+    }
+    th{
+        /* height: 50px; */
+        color: grey;
     }
     .left{
         float: left; 
@@ -191,8 +235,14 @@ th{
     .right{
         float: left; 
         
-
     }
+    .navbar a {
+        float: none;
+        display: block;
+         width: 20%; 
+        text-align: left; /* If you want the text to be left-aligned on small screens */
+      }
+      
 }
     @media (max-width: 768px){
         .intro{
@@ -230,6 +280,13 @@ th{
             /* margin-left: 10px; */
             /* padding-left: 30px;  */
             /* margin-right: auto; */ 
+            color:red;
+            font-style: italic;
+            font-family: cursive;  
+        }
+         th{
+            /* height: 50px; */
+            color: grey;
             
         }
         .historicalPlaces{
@@ -258,4 +315,20 @@ th{
             float: left; 
     
         }
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            width: 35%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+            text-align: center; /* If you want the text to be centered */
+          }
+          .pictures_landing{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 11%;
+            padding-right: 3%;
+        }
+         
 }  
